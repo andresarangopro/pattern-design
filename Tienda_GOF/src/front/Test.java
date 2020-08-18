@@ -8,7 +8,7 @@ import javax.swing.table.DefaultTableModel;
 import classes.CarroCompras;
 import classes.ImpFactoriaProducto;
 import classes.Producto;
-import classes.ProductoCantidad;
+import classes.Item;
 import classes.ProductoDescuento;
 import classes.ProductoNormal;
 import classes.ProductoPeso;

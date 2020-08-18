@@ -1,12 +1,12 @@
 package classes;
 
 
-public class ProductoCantidad {
+public class Item {
 	
 	public Producto producto;
 	public int cantidad;
 	
-	public ProductoCantidad(Producto producto, int cantidad) {
+	public Item(Producto producto, int cantidad) {
 		this.producto = producto;
 		this.cantidad = cantidad;
 	}

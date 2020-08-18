@@ -4,21 +4,21 @@ import java.util.ArrayList;
 public class CarroCompras {
 	
 
-	public ArrayList<ProductoCantidad> productosCantidad;
+	public ArrayList<Item> productosCantidad;
 	
 	public CarroCompras() {
-		this.productosCantidad = new ArrayList<ProductoCantidad>();
+		this.productosCantidad = new ArrayList<Item>();
 	}	
 	
-	public ArrayList<ProductoCantidad> getProductos() {
+	public ArrayList<Item> getProductos() {
 		return productosCantidad;
 	}
 
-	public void addProducto(ProductoCantidad producto) {
+	public void addProducto(Item producto) {
 		this.productosCantidad.add(producto);
 	}
 	
-	public void removeProducto(ProductoCantidad producto) {
+	public void removeProducto(Item producto) {
 		this.productosCantidad.remove(producto);
 	}
 	
@@ -29,7 +29,7 @@ public class CarroCompras {
 	
 	public double getTotal() {
 		Double total = 0.0;
-		for (ProductoCantidad productoCantidad : this.productosCantidad) {
+		for (Item productoCantidad : this.productosCantidad) {
 			total += productoCantidad.producto.getPrice(productoCantidad.cantidad);
 		}
 		return total;

@@ -2,7 +2,6 @@ package classes;
 
 public class ImpFactoriaProducto implements FactoriaProductos {
 
-
 	@Override
 	public Producto hacerProducto(RegistroProducto r) {
 		switch(r.SKU) {

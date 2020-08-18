@@ -12,7 +12,7 @@ import javax.swing.border.EmptyBorder;
 import javax.swing.table.DefaultTableModel;
 import javax.swing.JTable;
 import classes.Producto;
-import classes.ProductoCantidad;
+import classes.Item;
 
 import javax.swing.JButton;
 import java.awt.event.MouseAdapter;
@@ -77,7 +77,7 @@ public class ViewCarroCompras extends JFrame {
 		btnNewButton.addMouseListener(new MouseAdapter() {
 			@Override
 			public void mouseClicked(MouseEvent arg0) {
-				agregarProductoCarritoCompras(new ProductoCantidad(tableModelP.getProductAt(table_1.getSelectedRow()),1));
+				agregarProductoCarritoCompras(new Item(tableModelP.getProductAt(table_1.getSelectedRow()),1));
 			}
 		});
 		listarProductos(new Test().getProductTable());	
@@ -90,7 +90,7 @@ public class ViewCarroCompras extends JFrame {
 		contentPane.add(table_1, BorderLayout.WEST);			
 	}
 	
-	public void agregarProductoCarritoCompras(ProductoCantidad productoCantidad) {
+	public void agregarProductoCarritoCompras(Item productoCantidad) {
 		tableModelCR.addRow(productoCantidad);			
 	}
 

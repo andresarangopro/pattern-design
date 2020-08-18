@@ -7,11 +7,11 @@ import javax.swing.table.AbstractTableModel;
 import javax.swing.table.DefaultTableModel;
 
 import classes.Producto;
-import classes.ProductoCantidad;
+import classes.Item;
 
 public class JTableCarBuysModel extends DefaultTableModel {
 	
-	private ArrayList<ProductoCantidad> productosCantidad= new ArrayList<>();
+	private ArrayList<Item> productosCantidad= new ArrayList<>();
 	private static Object[][] rows =new Object[2][2];
 	private static String[] columns = {"Product", "Cant"};
 	
@@ -46,7 +46,7 @@ public class JTableCarBuysModel extends DefaultTableModel {
 		return productosCantidad.get(row).getProducto();
 	}
 	
-	public void agregarProducto(ProductoCantidad productoCantidad) {
+	public void agregarProducto(Item productoCantidad) {
 		productosCantidad.add(productoCantidad);
 		this.rows = getRows();
 	}
@@ -60,15 +60,15 @@ public class JTableCarBuysModel extends DefaultTableModel {
 		return rows;
 	}
 	
-	public  ArrayList<ProductoCantidad> getProductsCants(){
+	public  ArrayList<Item> getProductsCants(){
 		return productosCantidad;		
 	}
 	
-	public void setProductsCants(ArrayList<ProductoCantidad> productosCantidad){
+	public void setProductsCants(ArrayList<Item> productosCantidad){
 		this.productosCantidad = productosCantidad;		
 	}
 	
-	public void addRow(ProductoCantidad productoCantidad) {
+	public void addRow(Item productoCantidad) {
         if (productoCantidad == null) {
             throw new IllegalArgumentException("rowData cannot be null");
         }

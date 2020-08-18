@@ -6,11 +6,11 @@ import java.util.Vector;
 import javax.swing.table.DefaultTableModel;
 
 import classes.Producto;
-import classes.ProductoCantidad;
+import classes.Item;
 
 public class MyTableModel extends DefaultTableModel {
     public static final String[] COLUMN_NAMES = { "Product", "Cant" };
-    private ArrayList<ProductoCantidad> productosCantidad= new ArrayList<>();
+    private ArrayList<Item> productosCantidad= new ArrayList<>();
     
     public MyTableModel() {
         super(COLUMN_NAMES, 0);
@@ -25,7 +25,7 @@ public class MyTableModel extends DefaultTableModel {
     }
     
 
-    public void addRow(ProductoCantidad rowData) {
+    public void addRow(Item rowData) {
         if (rowData == null) {
             throw new IllegalArgumentException("rowData cannot be null");
         }
