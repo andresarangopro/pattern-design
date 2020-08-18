@@ -30,6 +30,7 @@ public class CarroCompras {
 	public double getTotal() {
 		Double total = 0.0;
 		for (Item productoCantidad : this.productosCantidad) {
+			System.out.println(productoCantidad.producto.getClass());
 			total += productoCantidad.producto.getPrice(productoCantidad.cantidad);
 		}
 		return total;

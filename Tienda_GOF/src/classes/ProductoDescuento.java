@@ -11,13 +11,21 @@ public class ProductoDescuento extends Producto{
 	@Override
 	public double getPrice(int cantidad) {	
 		int descuentos = cantidad / 3;
-		double precioCompleto = this.precioUnitario * cantidad;
+		double precioCompleto = this.precioUnitario * cantidad;	
 		double precioConDescuento = precioCompleto - (descuentos*(precioCompleto*0.2));
+
+
 		if((precioCompleto * 0.5) >= precioConDescuento) {
 			return precioConDescuento;
 		}else {
-			return precioCompleto - ((descuentos-1)*(precioCompleto*0.2));
+			if(descuentos > 0) {
+				return precioCompleto - ((descuentos-1)*(precioCompleto*0.2));
+			}else {
+				return precioCompleto ;
+			}
+	
 		}		
+
 	}
 
 

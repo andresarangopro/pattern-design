@@ -10,13 +10,20 @@ public class Main {
 		
 		Tienda tienda = new Tienda();
 		Cliente cliente = new Cliente("Andrés", new CarroCompras());
+		Cliente cliente2 = new Cliente("Juan", new CarroCompras());
+		
 		tienda.newClient(cliente);
+		tienda.newClient(cliente2);
+		
 		tienda.agregarProductoCarrito(cliente, new Item(pr1, 2));
+		tienda.agregarProductoCarrito(cliente2, new Item(pr3, 2));
+		
 		
 		System.out.println(pr1.getClass());
 		System.out.println(pr2.getClass());
 		System.out.println(pr3.getClass());
 		System.out.println(cliente.getCarroCompras().getTotal());
+		System.out.println(cliente2.getCarroCompras().getTotal());
 	}
 
 }
