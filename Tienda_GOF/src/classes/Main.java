@@ -1,5 +1,8 @@
 package classes;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class Main {
 	
 	public static void main(String[] args) {
@@ -16,14 +19,15 @@ public class Main {
 		tienda.newClient(cliente2);
 		
 		tienda.agregarProductoCarrito(cliente, new Item(pr1, 2));
-		tienda.agregarProductoCarrito(cliente2, new Item(pr3, 2));
+		tienda.agregarProductoCarrito(cliente, new Item(pr3, 5));
 		
+		Map<String, Double> productosTotal = new HashMap<>();
+		productosTotal = cliente.getCarroCompras().getProductosTotalCarrito();
 		
-		System.out.println(pr1.getClass());
-		System.out.println(pr2.getClass());
-		System.out.println(pr3.getClass());
-		System.out.println(cliente.getCarroCompras().getTotal());
-		System.out.println(cliente2.getCarroCompras().getTotal());
+		productosTotal.entrySet().forEach(System.out::println);
+		System.out.println("Total: " + cliente.getCarroCompras().getTotal());
+		
+		    
 	}
 
 }

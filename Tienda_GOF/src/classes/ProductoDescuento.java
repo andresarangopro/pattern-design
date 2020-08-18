@@ -12,20 +12,12 @@ public class ProductoDescuento extends Producto{
 	public double getPrice(int cantidad) {	
 		int descuentos = cantidad / 3;
 		double precioCompleto = this.precioUnitario * cantidad;	
-		double precioConDescuento = precioCompleto - (descuentos*(precioCompleto*0.2));
-
-		if((precioCompleto * 0.5) >= precioConDescuento) {
-			return precioConDescuento;
-		}else {
-			if(descuentos > 0) {
-				return precioCompleto - ((descuentos-1)*(precioCompleto*0.2));
-			}else {
-				return precioCompleto ;
-			}
-	
-		}		
-
+		if(descuentos >= 3 ) {
+			return precioCompleto - (precioCompleto*0.5);
+		} else if(descuentos >= 1) {
+			return precioCompleto - (descuentos*(precioCompleto*0.2));
+		} else {
+			return precioCompleto;
+		}
 	}
-
-
 }

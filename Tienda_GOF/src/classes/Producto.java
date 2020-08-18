@@ -59,6 +59,14 @@ public abstract class Producto {
 	
 	public abstract double getPrice(int cantidad) ;
 	
+	public boolean tieneUnidadesDisponibles(int cantidad) {
+		if(cantidad < this.getUnidadesDisponibles()) {
+			return true;
+		} else {
+			return false;
+		}
+	}
+	
 	
 
 }
