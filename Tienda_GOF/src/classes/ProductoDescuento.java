@@ -14,7 +14,6 @@ public class ProductoDescuento extends Producto{
 		double precioCompleto = this.precioUnitario * cantidad;	
 		double precioConDescuento = precioCompleto - (descuentos*(precioCompleto*0.2));
 
-
 		if((precioCompleto * 0.5) >= precioConDescuento) {
 			return precioConDescuento;
 		}else {
