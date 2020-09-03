@@ -18,7 +18,7 @@ public class ProductoDescuento extends Producto{
 			return precioConDescuento;
 		}else {
 			if(descuentos > 0) {
-				return precioCompleto - ((descuentos-1)*(precioCompleto*0.2));
+				return precioCompleto - ((descuentos)*(precioCompleto*0.2));
 			}else {
 				return precioCompleto ;
 			}

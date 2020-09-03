@@ -5,9 +5,14 @@ public class Cliente {
 	private String nombre ;
 	CarroCompras carroCompras;
 	
-	Cliente(String nombre, CarroCompras carroCompras){
+	public Cliente(String nombre){
 		this.nombre = nombre;
-		this.carroCompras = carroCompras;
+		this.carroCompras = new CarroCompras();
+	}
+	
+
+	public void agregarProducto(Producto item, int cantidad) {
+		carroCompras.addProducto(new Item(item, cantidad));
 	}
 
 	public String getNombre() {
@@ -25,6 +30,9 @@ public class Cliente {
 	public void setCarroCompras(CarroCompras carroCompras) {
 		this.carroCompras = carroCompras;
 	}
+
+
+
 	
 	
 
