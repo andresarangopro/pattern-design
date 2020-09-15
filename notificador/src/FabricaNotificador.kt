@@ -4,11 +4,11 @@ class FabricaNotificador {
     val SMS = "SMS"
     val MENSAJERIAEMPRESARIAL = "mensajeria_empresarial"
 
-    fun crearNotificador(tipoPlataforma:String, correo:String): IPlataformaNotificacion? {
+    fun crearNotificador(tipoPlataforma:String, destino:String): IPlataformaNotificacion? {
         when(tipoPlataforma){
-            FACEBOOK->{return Facebook(correo)}
-            SMS->{return SMS(correo)}
-            MENSAJERIAEMPRESARIAL->{return MensajeriaEmpresarial(correo)}
+            FACEBOOK->{return Facebook(destino)}
+            SMS->{return SMS(destino)}
+            MENSAJERIAEMPRESARIAL->{return MensajeriaEmpresarial(destino)}
         }
         return null
     }

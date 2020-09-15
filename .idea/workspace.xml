@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9380f312-9859-4f5f-b039-7504ed5e175c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/notificador/src/Aplicacion.kt" beforeDir="false" afterPath="$PROJECT_DIR$/notificador/src/Aplicacion.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/notificador/src/FabricaNotificador.kt" beforeDir="false" afterPath="$PROJECT_DIR$/notificador/src/FabricaNotificador.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/notificador/src/Facebook.kt" beforeDir="false" afterPath="$PROJECT_DIR$/notificador/src/Facebook.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notificador/src/IPlataformaNotificacion.kt" beforeDir="false" afterPath="$PROJECT_DIR$/notificador/src/IPlataformaNotificacion.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/notificador/src/MensajeriaEmpresarial.kt" beforeDir="false" afterPath="$PROJECT_DIR$/notificador/src/MensajeriaEmpresarial.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notificador/src/Notificador.kt" beforeDir="false" afterPath="$PROJECT_DIR$/notificador/src/Notificador.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/notificador/src/SMS.kt" beforeDir="false" afterPath="$PROJECT_DIR$/notificador/src/SMS.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notificador/src/Usuario.kt" beforeDir="false" afterPath="$PROJECT_DIR$/notificador/src/Usuario.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +51,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="548" y="177" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1600134710882" />
+    <state x="479" y="11" width="578" height="801" key="find.popup" timestamp="1600136486083">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="479" y="11" width="578" height="801" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1600136486083" />
     <state x="209" y="33" key="new project wizard" timestamp="1600134289514">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

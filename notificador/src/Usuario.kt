@@ -1,3 +1,3 @@
-class Usuario(var correo:String, var tipoPlataforma:String) {
+class Usuario(var destino:String, var tipoPlataforma:String) {
 
 }
