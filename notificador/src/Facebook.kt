@@ -1,5 +1,5 @@
-class Facebook(correo: String): IPlataformaNotificacion {
+class Facebook(var correo: String): IPlataformaNotificacion {
     override fun enviarNotificacion(mensaje: String) {
-        println("FacebookNotificador $mensaje")
+        println("FacebookNotificador: Destino: $correo Mensaje: $mensaje")
     }
 }

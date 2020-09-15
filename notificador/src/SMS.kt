@@ -1,7 +1,7 @@
-class SMS(correo: String): IPlataformaNotificacion {
+class SMS(var correo: String): IPlataformaNotificacion {
 
     override fun enviarNotificacion(mensaje: String) {
-        println("SMSNOTIFICADOR $mensaje")
+        println("SMSNOTIFICADOR: Destino: $correo Mensaje: $mensaje")
     }
 
 }
