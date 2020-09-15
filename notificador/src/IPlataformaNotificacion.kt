@@ -1,4 +1,3 @@
-abstract class IPlataformaNotificacion(var correo:String) {
-
-    abstract fun enviarNotificacion(mensaje:String)
+interface IPlataformaNotificacion {
+    fun enviarNotificacion(mensaje:String)
 }

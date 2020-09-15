@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9380f312-9859-4f5f-b039-7504ed5e175c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/notificador/src/Aplicacion.kt" beforeDir="false" afterPath="$PROJECT_DIR$/notificador/src/Aplicacion.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notificador/src/FabricaNotificador.kt" beforeDir="false" afterPath="$PROJECT_DIR$/notificador/src/FabricaNotificador.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notificador/src/Facebook.kt" beforeDir="false" afterPath="$PROJECT_DIR$/notificador/src/Facebook.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notificador/src/IPlataformaNotificacion.kt" beforeDir="false" afterPath="$PROJECT_DIR$/notificador/src/IPlataformaNotificacion.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notificador/src/MensajeriaEmpresarial.kt" beforeDir="false" afterPath="$PROJECT_DIR$/notificador/src/MensajeriaEmpresarial.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notificador/src/SMS.kt" beforeDir="false" afterPath="$PROJECT_DIR$/notificador/src/SMS.kt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1hWJji4gKOZfaIazXvawxqi9qIW" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9380f312-9859-4f5f-b039-7504ed5e175c" name="Default Changelist" comment="" />
+      <created>1600121053753</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600121053753</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="223" y="67" width="1089" height="737" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600134718214">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="67" width="1089" height="737" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1600134718214" />
+    <state x="498" y="214" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1600134694754">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="498" y="214" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1600134694754" />
+    <state x="548" y="177" key="FileChooserDialogImpl" timestamp="1600134710882">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="548" y="177" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1600134710882" />
+    <state x="209" y="33" key="new project wizard" timestamp="1600134289514">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="209" y="33" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1600134289514" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/notificador/src/Aplicacion.kt</url>
+          <line>1</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

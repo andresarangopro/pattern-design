@@ -1,7 +1,7 @@
 fun main(args:Array<String>) {
     val FACEBOOK = "facebook"
     val SMS = "SMS"
-    val MENSAJERIAEMPRESARIAL = "mensajeria_emrpesarial"
+    val MENSAJERIAEMPRESARIAL = "mensajeria_empresarial"
 
     var array = arrayListOf<Usuario>(
         Usuario("andresarango",FACEBOOK),
