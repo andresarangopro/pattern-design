@@ -1,4 +1,4 @@
-class FacebookNotificador(correo: String): PlataformaNotificacion(correo) {
+class Facebook(correo: String): IPlataformaNotificacion(correo) {
 
 
     override fun enviarNotificacion(mensaje: String) {
