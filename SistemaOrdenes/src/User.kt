@@ -7,7 +7,7 @@ class User() {
     var lastName:String?=null
     var address:String?=null
     var phone:String?=null
-    var typeUser:String?=null
+    var typeUser:TypeUser?=null
 
     constructor(userName: String?, password: String?):this() {
         this.userName = userName
@@ -18,5 +18,13 @@ class User() {
         this.id = id
         this.userName = userName
         this.password = password
+    }
+
+    constructor(id:String, userName: String?, password: String?, typeUser: TypeUser):this() {
+        this.id = id
+        this.userName = userName
+        this.password = password
+        this.typeUser = typeUser
+
     }
 }

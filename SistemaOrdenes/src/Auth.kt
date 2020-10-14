@@ -5,7 +5,8 @@ class Auth :IAuth{
 
     override fun loginUser(userName: String, password: String, ip:String) {
         if(credentialsRigth(userName, password) && permitLogin(ip)){
-            onLoginSuccess(User(id="id001",userName, password))
+            var typeUser = TypeUser("id001", "Normal", arrayListOf("permission_create_order"))
+            onLoginSuccess(User(id="id001", userName, password, typeUser))
         }else{
             onLoginFailure("Usuario y contraseña erroneos o ya superó los intentos permitidos, intente más tarde",ip=ip)
         }

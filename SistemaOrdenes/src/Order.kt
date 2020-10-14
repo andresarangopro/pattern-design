@@ -10,8 +10,12 @@ class Order(){
 
     fun createOrder(idOrder:String){
         if(SingletonUser.getInstance().id != null){
-            orders!!.add(Order(SingletonUser.getInstance().id!!,idOrder))
-            println("Orden creada")
+            if(SingletonUser.getInstance().typeUser!!.type.equals("Normal")){
+                orders!!.add(Order(SingletonUser.getInstance().id!!,idOrder))
+                println("Orden creada")
+            }else{
+                println("Sin permisos para esta función")
+            }
         }else{
             println("Loguearse por favor")
         }
